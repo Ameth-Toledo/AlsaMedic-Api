@@ -1,6 +1,6 @@
 package domain
 
-interface IUsersRepository {
+type IUsersRepository interface {
 	Save()
 	Update()
 	Delete()
